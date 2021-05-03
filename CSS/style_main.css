@@ -58,6 +58,7 @@
         padding-top: 2.5rem;
         padding-left: 1rem;
         background-color: white;
+        box-shadow: var(--shadow);
 
 
       }
@@ -220,12 +221,13 @@
      /* end header styling */
   /* start page styling */
      .container-top{
-      margin-top: 2rem; 
-      margin-bottom: 2rem; 
       display: flex;
       flex-flow: row wrap;
-     
       justify-content: flex-start;
+      margin-top: 1rem; 
+      margin-right: 1rem; 
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--mainText);
      }
 
     .materialImg {
@@ -240,12 +242,29 @@
      .container-middle{
       display: flex;
       flex-flow: row wrap;
-     
-      justify-content: flex-start;
+     justify-content: flex-start;
+     margin-top: 2rem; 
+     margin-right: 1rem; 
+     padding-bottom: 2rem;
+     border-bottom: 1px solid var(--mainText);
      }
 .h5margin{
      margin-top: 0.5rem; 
     }
+
+    .container-bottom{
+      display: flex;
+      flex-flow: row wrap;
+     justify-content: flex-start;
+     margin-top: 2rem; 
+     padding-bottom: 2rem;
+     margin-right: 1rem; 
+    
+     }
+
+     .container-footer{
+       height:50px;
+     }
        /* end page styling */
 
    /* New  accordion */
