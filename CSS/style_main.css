@@ -185,7 +185,7 @@
   }
 
   .mainBtn{
-    margin-top: 1.5rem;
+   
     background: var(--buttonColor);
     color: var(--lightTextColor);
     padding:0.5rem;
@@ -297,7 +297,7 @@
      
      .container-center{
       margin-top: 0.5rem;
-      column-gap:1.5rem;
+      gap:1.5rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 2fr 0.1fr;
