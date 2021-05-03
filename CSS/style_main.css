@@ -188,10 +188,10 @@
    
     background: var(--buttonColor);
     color: var(--lightTextColor);
-    padding:0.5rem;
-    padding-left: 0.5rem;
-    padding-right: -0.5rem;
-    border-radius: 2%;
+   
+    padding:6.4px 12px; 
+    font-size:1rem ;
+ 
     text-align: center;
     
 
@@ -202,19 +202,19 @@
     background-color: var(--background-2);
     color: var(--mainText);
     padding:0.4rem 0.8rem;
-  
+  font-size:1rem ;
     border:1px solid var(--mainText);
-    border-radius: 2%;
+  
   
   }
   .thirdBtn{
     margin-top: 0.5rem;
     background-color: var(--background-1);
     color: var(--mainText);
-    padding:0.4rem 0.8rem;
+    padding:0.3rem 0.7rem;
   
     border:1px solid var(--mainText);
-    border-radius: 2%;
+   
  
   }
    /* end main styling */
@@ -300,17 +300,13 @@
       gap:1.5rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 2fr 0.1fr;
+      grid-template-rows: 2fr 0.3fr;
       justify-self: start;
       
       width: 100%;
     }
 
-     .illusStyl{
-    
-    margin-top: 1rem;
- 
-     }
+     
 
      .illusize{
 
