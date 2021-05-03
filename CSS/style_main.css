@@ -140,16 +140,16 @@
      
   }
 
-  nav{
+  .navContainer{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+   
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
   }
-  .svgCross{
-    align-items:  flex-end;
-  
-
-  }
+ 
  
    /* end main styling */
 
