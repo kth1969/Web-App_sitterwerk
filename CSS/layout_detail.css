@@ -59,8 +59,30 @@
   width: 100%;
  
    }
+
+   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .blury{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+  .imgfront{
+    width: 100%;
+    z-index: 1;
+  }
+  .ontop{
+  backdrop-filter: blur(5px);
+    position: fixed;
+    top:0;
+    width: 100px;
+   height: 60px;
+   z-index: 1;
+  }
+
+  
   
 /* main Styling */
+
 
 /* QR Code Styling */
 #container {
