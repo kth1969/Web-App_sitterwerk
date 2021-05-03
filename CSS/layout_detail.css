@@ -44,19 +44,21 @@
 }
 .container-picture{
   margin-top: 0.5rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  column-gap:1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 0.5fr;
 }
-.xtraMarginleft
+/* .xtraMarginleft
 {
   margin-left: 1rem;
-}
+} */
 
 .referenzImg {
-  width: 46%;
+  width: 100%;
  
    }
+  
 /* main Styling */
 
 /* QR Code Styling */
