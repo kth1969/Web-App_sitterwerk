@@ -80,18 +80,17 @@
   
   h3 {
     font-size: 26px;
-    line-height: 34px;
-    font-weight: 300;
+    line-height: 20px;
+    font-weight: 600;
     color:var(--mainText);
     letter-spacing: 1px;
     display: block;
-    background-color: #fefffa;
     margin: 0;
     cursor: pointer;
   }
   
   p {
-    color:var(--secondaryText);
+    color:var(--mainText);
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -152,28 +151,74 @@
  
  
    /* end main styling */
-
+  /* header styling */
    .section-1{
      background-color: magenta;
      height: 60px;
 
    }
+   .section-2{
+    background-color:yellow;
+    height: 60px;
+
+  }
    .pLogo{
     font-size: 12px;
     line-height: 1;
     color:var(--lightTextColor);
     margin: 0;
     padding-left: 0.5rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
    }
    .pLogo-2{
-    font-size: 17px;
+    font-size: 18px;
   
     color:var(--lightTextColor);
     margin: 0;
  
     padding-left: 0.5rem;
    }
+   .pLogo-3{
+    font-size: 12px;
+    color:var(--mainText);
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+ 
+   }
+   .pLogo-4{
+    font-size: 18px;
+    color:var(--mainText);
+    margin: 0;
+   padding-left: 0.5rem;
+   }
+
+     /* end header styling */
+  /* start page styling */
+     .container-top{
+      margin-top: 2rem; 
+      display: flex;
+      flex-flow: row wrap;
+     
+      justify-content: flex-start;
+     }
+
+    .materialImg {
+      size: 100%;
+    }
+
+.materialStyl{
+  padding-left: 2rem;
+}
+
+     .container-middle{
+      display: flex;
+      flex-flow: row wrap;
+     
+      justify-content: flex-start;
+     }
+
+       /* end page styling */
 
    /* New  accordion */
 .transition, ul li i:before, ul li i:after, p {
