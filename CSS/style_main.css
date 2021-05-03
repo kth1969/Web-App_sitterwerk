@@ -21,16 +21,17 @@
   }
 
   @font-face{
-    font-family: NeueMontreal-Bold;
-    src: url(../font/NeueMontreal-Bold.otf);
+    font-family: NeueMontreal-Rgurlar;
+    src: url(../font/NeueMontreal-Regular.otf);
    
     }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
   html {
 
     perspective: 900;
     overflow-y: scroll;
-    font-family: 'NeueMontreal-Bold', sans-serif; 
+    font-family: 'Inter', sans-serif;
     color: rgba(3, 28, 54, 0.8);
     background-color: var(--secondaryText);
   }
@@ -42,6 +43,8 @@
        background: var(--background-1);
       line-height: 1.5;
       min-height: 0;
+      /* font-family: NeueMontreal-Regular; */
+      font-family: 'Inter', sans-serif;
       /* display: inline-block; */
       position: relative;
       left: 50%;
@@ -69,6 +72,7 @@
   
   h1 {
     font-size: 35px;
+
     line-height: 42px;
     letter-spacing: 1px;
     font-weight: 600;
