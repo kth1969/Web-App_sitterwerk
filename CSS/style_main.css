@@ -139,6 +139,17 @@
       transition: 2s;
      
   }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .svgCross{
+    align-items:  flex-end;
+  
+
+  }
  
    /* end main styling */
 
