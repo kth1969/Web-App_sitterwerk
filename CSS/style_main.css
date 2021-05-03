@@ -17,6 +17,7 @@
       --shadow:0 1px 5px rgba(199, 198, 198,0.8);
       --hoverColor:#EF7D6A;
       --background-1: #F7F3F2;
+      --background-2: #ffffffff;
       --background:  rgba(219, 197, 197, 0.3);
 
   }
@@ -58,7 +59,8 @@
       main{
         padding-top: 2.5rem;
         padding-left: 1rem;
-        background-color: white;
+        padding-right: 1rem;
+        background:var(--background-2);
         box-shadow: var(--shadow);
 
 
@@ -178,26 +180,31 @@
     margin-top: 1rem;
     background: var(--buttonColor);
     color: var(--lightTextColor);
-    padding:0.5rem 0.9rem;
+    padding:0.5rem 1.5rem;
     border-radius: 2%;
 
 
   }
   .secondBtn{
-    margin-top: 0.5rem;
-    background-color: white;
+    margin-top: 1.5rem;
+    background-color: var(--background-2);
     color: var(--mainText);
     padding:0.4rem 0.8rem;
   
     border:1px solid var(--mainText);
     border-radius: 2%;
-    
-
-
-
+  
   }
+  .thirdBtn{
+    margin-top: 0.5rem;
+    background-color: var(--background-1);
+    color: var(--mainText);
+    padding:0.4rem 0.8rem;
+  
+    border:1px solid var(--mainText);
+    border-radius: 2%;
  
- 
+  }
    /* end main styling */
   /* header styling */
    .section-1{
@@ -206,7 +213,7 @@
 
    }
    .section-2{
-    background-color:yellow;
+    background-color:var(--background-1);
     height: 60px;
 
   }
@@ -248,7 +255,7 @@
       flex-flow: row wrap;
       justify-content: flex-start;
       margin-top: 1rem; 
-      margin-right: 1rem; 
+      
       padding-bottom: 2rem;
       border-bottom: 1px solid var(--mainText);
      }
@@ -267,16 +274,16 @@
       flex-flow: column wrap;
       align-items: start;
      margin-top: 2rem; 
-     margin-right: 1rem; 
+     
      padding-bottom: 2rem;
      border-bottom: 1px solid var(--mainText);
      }
      .container-center{
       display: flex;
       flex-flow: row wrap;
-      align-items: start;
+      justify-content:space-evenly;
      margin-top: 2rem; 
-     margin-right: 1rem; 
+   
     
  
      }
@@ -288,7 +295,7 @@
      }
      .btnStyl{
      background:yellow;
-     margin-right: 5rem; 
+     
 
     }
      
