@@ -14,6 +14,50 @@
 
   margin-top: 50px;
 }
+/* main Styling */
+
+.leadtext{
+  
+    color:var(--mainText);
+    font-size: 1.07rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    
+    margin:0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+}
+
+.pmargin{
+  margin-bottom: 2rem;
+}
+.pbulledpoint{
+  line-height: 1.1rem;
+}
+.xtraMargin{
+  margin-top: 2rem;
+}
+.container-picture{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.xtraMarginleft
+{
+  margin-left: 1rem;
+}
+
+.referenzImg {
+  width: 46%;
+ 
+   }
+/* main Styling */
 
 /* QR Code Styling */
 #container {

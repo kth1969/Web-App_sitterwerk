@@ -58,8 +58,8 @@
 
       main{
         padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
         background:var(--background-2);
         box-shadow: var(--shadow);
 
@@ -114,6 +114,18 @@
     cursor: pointer;
    
   }
+  h6 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    color:var(--secondaryText);
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    margin-top: 0.25rem;
+   
+  }
   
   p {
     color:var(--mainText);
@@ -151,12 +163,7 @@
     border-top: 2px dotted #438197;
   }
 
-  img{
-      max-width: 100%;
-      height: auto;
-      min-width:10%
-      
-  }
+ 
   
   a:hover{
            
