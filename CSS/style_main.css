@@ -95,6 +95,7 @@
     display: block;
     margin: 0;
     cursor: pointer;
+    margin-top: 0.8rem;
   }
   
   p {
@@ -108,7 +109,8 @@
     max-height: 800px;
     opacity: 1;
     transform: translate(0, 0);
-    margin-top: 7px;
+    margin:0;
+    margin-top: 0.8rem;
     z-index: 2;
   }
   
@@ -217,7 +219,7 @@
     }
 
 .materialStyl{
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
      .container-middle{
