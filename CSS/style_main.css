@@ -20,13 +20,17 @@
       --background:  rgba(219, 197, 197, 0.3);
   }
 
-
+  @font-face{
+    font-family: NeueMontreal-Bold;
+    src: url(../font/NeueMontreal-Bold.otf);
+   
+    }
 
   html {
 
     perspective: 900;
     overflow-y: scroll;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'NeueMontreal-Bold', sans-serif; 
     color: rgba(3, 28, 54, 0.8);
     background-color: var(--secondaryText);
   }
@@ -208,7 +212,7 @@
     }
 
 .materialStyl{
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
      .container-middle{
