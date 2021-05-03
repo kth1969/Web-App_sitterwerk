@@ -55,7 +55,8 @@
       }
 
       main{
-        padding: 24px;
+        padding-top: 2rem;
+        padding-left: 0.8rem;
         background-color: white;
 
 
@@ -98,12 +99,23 @@
     cursor: pointer;
     margin-top: 0.8rem;
   }
+  h5 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    color:var(--mainText);
+    letter-spacing: 1px;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+   
+  }
   
   p {
     color:var(--mainText);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1;
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
@@ -111,7 +123,7 @@
     opacity: 1;
     transform: translate(0, 0);
     margin:0;
-    margin-top: 0.8rem;
+    margin-top: 0.3rem;
     z-index: 2;
   }
   
@@ -209,6 +221,7 @@
   /* start page styling */
      .container-top{
       margin-top: 2rem; 
+      margin-bottom: 2rem; 
       display: flex;
       flex-flow: row wrap;
      
@@ -216,11 +229,12 @@
      }
 
     .materialImg {
-     width: 45%;
+   width: 43%;
+   height: 42%;
     }
 
 .materialStyl{
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
      .container-middle{
@@ -229,7 +243,9 @@
      
       justify-content: flex-start;
      }
-
+.h5margin{
+     margin-top: 0.5rem; 
+    }
        /* end page styling */
 
    /* New  accordion */
