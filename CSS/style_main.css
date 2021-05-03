@@ -185,11 +185,14 @@
   }
 
   .mainBtn{
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     background: var(--buttonColor);
     color: var(--lightTextColor);
-    padding:0.5rem 1.5rem;
+    padding:0.5rem;
+    padding-left: 0.5rem;
+    padding-right: -0.5rem;
     border-radius: 2%;
+    text-align: center;
     
 
 
@@ -287,28 +290,21 @@
       display: flex;
       flex-flow: column wrap;
       align-items: start;
-    
-     
-     padding-bottom: 2rem;
+    padding-bottom: 2rem;
      border-bottom: 1px solid var(--mainText);
      }
 
-     .mainBtn-w{
-      margin-left: 2rem;
-      margin-top: 0.5rem;
-      background: var(--buttonColor);
-      color: var(--lightTextColor);
-      padding:0.5rem 1.5rem;
-      border-radius: 2%;
-    }
+     
      .container-center{
-      display: flex;
-      flex-flow: row wrap;
-      align-items: center;
-      margin: 0;
-    
-  
-     }
+      margin-top: 0.5rem;
+      column-gap:1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2fr 0.5fr;
+      justify-self: start;
+      
+      width: 100%;
+    }
 
      .illusStyl{
     
@@ -321,16 +317,8 @@
       width:100%;
      
      }
-     .illusizespinnen{
-
-  width: 100%;
-     }
-     .btnStyl{
-      margin-top: 1.2rem;
-      margin-right: 1.5rem;
-     
-
-    }
+   
+    
      
 .h5margin{
      margin-top: 0.5rem; 
