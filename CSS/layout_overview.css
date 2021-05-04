@@ -7,16 +7,48 @@
   
 
     
-    
-     
-     @media screen and (min-width:2000px) {
-       
-        }
-
-    
-
-
-
-@media screen and (min-width:720px){
+.overviewbody {
+padding-right: 0.6rem;
+padding-left: 0.6rem;
   
+}  
+
+.container-overviewsmall {
+  display: grid;
+grid-gap: 10px;
+grid-template-columns: 0.3fr 1fr;
+grid-template-rows: 0.5fr 1fr;
+grid-template-areas:
+"illu photo"
+"illu textForCard";
+}
+.illu{
+grid-area:illu;
+padding-top: 7rem;
+justify-self: end;
+}
+.photo{
+grid-area:photo;
+padding-top: 1.5rem;
+justify-self: start;
+
+
+}
+.textForCard{
+grid-area:textForCard;
+
+}
+
+.textSizecard{
+padding:0;
+font-size: 0.8rem;
+
+}
+.lastlinep{
+  padding-bottom: 1rem;
+
+}
+.middlelinep{
+  padding-bottom: 0.3rem;
+
 }
