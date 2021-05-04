@@ -80,6 +80,12 @@ overflow: auto;
 
 
 }
+.container-carousel{
+
+  margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--mainText);
+}
 
 .descriptiontextBooks{
 
@@ -128,6 +134,12 @@ overflow: auto;
   
   
 /* main Styling */
+
+/* carousel start */
+
+
+
+/* carousel end */
 
 
 /* QR Code Styling */
