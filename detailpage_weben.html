@@ -71,8 +71,51 @@
           <div><p class="pmargin pbulledpoint">weiter</p></div>
           <div> <p class="pmargin pbulledpoint">weiter</p></div>
         </div>
-    
-  
+   
+      <!-- new accordion -->
+      <div class="container">
+        
+        <div class="accordion">
+          <dl>
+            <dt>
+              <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger"> <h5 class="h5margin">Weiterverarbeitung</h5>
+                <h6>Leinwandbindung</h6></a>
+            </dt>
+            <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+              <p> _Färben, Bedrucken <br>
+                _veredeln <br>
+                _Konfektionieren</p>
+            </dd>
+            <dt>
+              <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+                <h5 class="h5margin">Nachhaltigkeit</h5>
+                <h6>Leinwandbindung</h6></a>
+            </dt>
+            <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+              <p>Das Vorbehandeln der Garne und Veredlungen sind teilweise nicht ökologisch. Auch lange Transporte an unterschiedliche Orte um Gewebe herzustellen können beeinflussen. Weiter hat das Ausgangsmaterial auch Einfluss auf die Ökobilanz.</p>
+              <p>weiterlesen</p>
+            </dd>
+            <dt>
+              <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+                <h5 class="h5margin">Bücher</h5>
+                <h6>Weben</h6></a>
+            </dt>
+            <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+              <div class="container-picture">
+                <img class="referenzImg" src="img/imported_2136_11633_material02.jpeg" alt="Bild Bautasche"></img>
+                
+                
+                <img class="referenzImg xtraMarginleft" src="img/imported_693_8447_application01.jpeg" alt="Bild Stuhl"></img>
+                <div><p class="pmargin pbulledpoint">weiter</p></div>
+                <div> <p class="pmargin pbulledpoint">weiter</p></div>
+              </div>
+         
+            </dd>
+          </dl>
+        </div>
+      </div>
+
+      <!-- new accordion -->
       </main>
 
 
@@ -86,7 +129,68 @@
         
     </footer>
 
+   
+<script>
+  (function(){
+	var d = document,
+	accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+	setAria,
+	setAccordionAria,
+	switchAccordion,
+  touchSupported = ('ontouchstart' in window),
+  pointerSupported = ('pointerdown' in window);
+  
+  skipClickDelay = function(e){
+    e.preventDefault();
+    e.target.click();
+  }
 
+		setAriaAttr = function(el, ariaType, newProperty){
+		el.setAttribute(ariaType, newProperty);
+	};
+	setAccordionAria = function(el1, el2, expanded){
+		switch(expanded) {
+      case "true":
+      	setAriaAttr(el1, 'aria-expanded', 'true');
+      	setAriaAttr(el2, 'aria-hidden', 'false');
+      	break;
+      case "false":
+      	setAriaAttr(el1, 'aria-expanded', 'false');
+      	setAriaAttr(el2, 'aria-hidden', 'true');
+      	break;
+      default:
+				break;
+		}
+	};
+//function
+switchAccordion = function(e) {
+  console.log("triggered");
+	e.preventDefault();
+	var thisAnswer = e.target.parentNode.nextElementSibling;
+	var thisQuestion = e.target;
+	if(thisAnswer.classList.contains('is-collapsed')) {
+		setAccordionAria(thisQuestion, thisAnswer, 'true');
+	} else {
+		setAccordionAria(thisQuestion, thisAnswer, 'false');
+	}
+  	thisQuestion.classList.toggle('is-collapsed');
+  	thisQuestion.classList.toggle('is-expanded');
+		thisAnswer.classList.toggle('is-collapsed');
+		thisAnswer.classList.toggle('is-expanded');
+ 	
+  	thisAnswer.classList.toggle('animateIn');
+	};
+	for (var i=0,len=accordionToggles.length; i<len; i++) {
+		if(touchSupported) {
+      accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+    }
+    if(pointerSupported){
+      accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+    }
+    accordionToggles[i].addEventListener('click', switchAccordion, false);
+  }
+})();
+</script>
 
 </body>
 </html>

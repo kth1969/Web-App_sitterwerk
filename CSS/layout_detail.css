@@ -8,7 +8,20 @@
 .crossSize{
   
   width:20px;
+  
 }
+/* versuch sticky 
+
+.square{
+background-color: yellow;
+position: -webkit-sticky;
+position: fixed;
+
+left:3.5%;
+
+z-index: 1000;
+overflow: auto;
+} */
   
 .insidepage{
 
@@ -37,7 +50,7 @@
   margin-bottom: 2rem;
 }
 .pbulledpoint{
-  line-height: 1.1rem;
+  line-height: 1.2rem;
 }
 .xtraMargin{
   margin-top: 2rem;
@@ -49,6 +62,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 0.5fr;
   justify-self: start;
+  border-bottom: 1px solid var(--mainText);
 }
 /* .xtraMarginleft
 {
