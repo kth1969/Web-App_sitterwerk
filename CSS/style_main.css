@@ -102,7 +102,7 @@
     display: block;
     margin: 0;
     cursor: pointer;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
   h5 {
     font-size: 20px;
@@ -175,6 +175,11 @@
       transition: 2s;
      
   }
+  .site-footer{
+  background: var(--background-1);
+
+
+}
 
   .navContainer{
     display: flex;
@@ -215,7 +220,7 @@
   
   }
   .thirdBtn{
-    margin-top: 0.5rem;
+    
     background-color: var(--background-1);
     color: var(--mainText);
     padding:0.3rem 0.7rem;
@@ -296,8 +301,8 @@
      }
 
     .materialImg {
-   width: 43%;
-   height: 42%;
+   width: 44%;
+   height: auto;
     }
 
 .materialStyl{
@@ -309,6 +314,7 @@
       display: flex;
       flex-flow: column wrap;
       align-items: start;
+      margin-top: 1rem; 
     padding-bottom: 2rem;
      border-bottom: 1px solid var(--mainText);
      }
@@ -322,8 +328,7 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 2fr 0.3fr;
       justify-items: center;
-      
-      width: 100%;
+   
     }
 
      
@@ -344,7 +349,7 @@
       display: flex;
       flex-flow: column wrap;
       align-items: start;
-     margin-top: 2rem; 
+     margin-top: 1rem; 
      padding-bottom: 2rem;
      margin-right: 4rem; 
     
@@ -354,9 +359,9 @@
       display: flex;
       flex-flow: row wrap;
       justify-content:space-between; 
-      margin: 0.5rem 1rem 0 1rem;
+      padding: 1rem;
    
-      padding-bottom: 0.7rem;
+     
   
      }
        /* end page styling */
