@@ -423,13 +423,13 @@
       font-size: 2rem;
       font-weight: 100;
 
-      line-height: 0.5em;
+      line-height: 1.5rem;
       float: right;
       transition: transform 0.3s ease-in-out;
     }
     .accordionTitle:hover,
     .accordion__Heading:hover {
-      background-color: var(--background-1);
+      background-color: var(--background-2);
     }
     
     .accordionTitleActive,
