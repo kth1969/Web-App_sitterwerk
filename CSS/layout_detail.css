@@ -80,14 +80,21 @@ overflow: auto;
 }
 
   .container-overviewsmall {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-      "illu pic"
+       display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "illu pic"
       "illu textdescription";
   }
+  .illu{
 
+  }
+  .pic{
+
+  }
+.textdescription{
+  
+}
 
 .container-carousel{
 
