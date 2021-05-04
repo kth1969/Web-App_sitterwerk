@@ -63,14 +63,16 @@ overflow: auto;
   grid-template-rows: 2fr 0.5fr;
   justify-self: start;
   
+  
 }
 .container-books{
   margin-top: 0.5rem;
   column-gap:1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.3fr 2fr 0.5fr;
+  grid-template-rows: 0.3fr 1.8fr 0.5fr;
   justify-self: start;
+ 
   
 }
 .h5marginX{
