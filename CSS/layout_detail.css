@@ -77,12 +77,21 @@ overflow: auto;
 }
 .h5marginX{
   margin-top:1rem
-
-
 }
+
+  .container-overviewsmall {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "illu pic"
+      "illu textdescription";
+  }
+
+
 .container-carousel{
 
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--mainText);
 }

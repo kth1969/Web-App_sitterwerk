@@ -104,6 +104,17 @@
     cursor: pointer;
     margin-top: 1rem;
   }
+  h4 {
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 600;
+    color:var(--secondaryText);
+   
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
   h5 {
     font-size: 20px;
     line-height: 20px;
@@ -285,7 +296,7 @@
       justify-content: flex-start;
       margin-top: 1rem; 
       
-      padding-bottom: 2rem;
+      padding-bottom: 4rem;
       border-bottom: 1px solid var(--mainText);
      }
 
