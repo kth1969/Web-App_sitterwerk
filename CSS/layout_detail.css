@@ -39,15 +39,21 @@ overflow: auto;
     position: relative;
     overflow: hidden;
     max-height: 800px;
-    
     margin:0;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding:0;
+   
+ 
     z-index: 2;
+}
+.pmargintop{
+  padding-top: 1rem;
 }
 
 .pmargin{
   margin-bottom: 2.5rem;
+}
+.pmarginbottom{
+  margin-bottom: 1.2rem;
 }
 .pbulledpoint{
   line-height: 1.2rem;
@@ -70,7 +76,7 @@ overflow: auto;
   column-gap:1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.3fr 1.8fr 0.5fr;
+  grid-template-rows: 0.3fr 1.8fr 0.4fr;
   justify-self: start;
  
   
@@ -78,7 +84,9 @@ overflow: auto;
 .h5marginX{
   margin-top:1rem
 }
-
+.pnopadding{
+  padding: 0;
+}
 
 .container-carousel{
 
