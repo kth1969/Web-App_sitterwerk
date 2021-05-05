@@ -28,9 +28,9 @@ body {
 }
 
 .carousel-indicators{
-  margin-top: 13rem;
-  margin-bottom: 0;
-  /* position: fixed; */
+  
+  margin-bottom: -15rem;
+  position: fixed;
 
 }
 
