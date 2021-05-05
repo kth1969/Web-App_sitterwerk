@@ -52,3 +52,19 @@ font-size: 0.8rem;
   padding-bottom: 0.3rem;
 
 }
+.ovaccordionTitle:before,
+    .ovaccordion__Heading:before {
+      content: "+";
+      font-size: 2rem;
+      font-weight: 100;
+
+      line-height: 1rem;
+      float: right;
+      transition: transform 0.3s ease-in-out;
+  
+    }
+
+    .overviewTi{
+
+      margin: 1rem 0;
+    }
