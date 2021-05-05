@@ -33,6 +33,16 @@ body {
 
 
 }
+.bindungsText{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 1rem; 
+
+}
+.pmarginleft{
+  margin-left:0.5rem;
+}
 
 /* .carousel-indicators{
   
