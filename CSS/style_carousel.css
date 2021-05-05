@@ -28,15 +28,11 @@ body {
 }
 
 
-.bilddistance{
-  margin-top: 0.5rem;
 
-
-}
 .carousel-indicators{
   
-  margin-bottom: -28rem;
-  position: fixed;
+  /* margin-bottom: -28rem;
+  position: fixed; */
 
 }
 
