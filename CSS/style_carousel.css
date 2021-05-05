@@ -83,8 +83,8 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
-  filter: invert(1) grayscale(0);
-  opacity: 0;
+  filter: invert(1) grayscale(100);
+  /* opacity: 0; */
   
 
 }
