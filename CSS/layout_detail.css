@@ -83,7 +83,7 @@ overflow: auto;
 .container-carousel{
 
   margin-top: 0.5rem;
-  padding-bottom: 2.5rem;
+  /* padding-bottom: 2.5rem; */
   border-bottom: 1px solid var(--mainText);
   height:550px;
 }
