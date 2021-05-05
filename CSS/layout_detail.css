@@ -85,7 +85,7 @@ overflow: auto;
   margin-top: 0.5rem;
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--mainText);
-  height:100%;
+  height:300px;
 }
 
 .descriptiontextBooks{
