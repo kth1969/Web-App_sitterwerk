@@ -452,17 +452,26 @@
       transition: transform 0.3s ease-in-out;
     }
     .accordionTitle:hover,
-    .accordion__Heading:hover {
+    .accordion__Heading:hover,
+    .accordionOverviewTi {
       background-color: var(--background-2);
+     
     }
     
     .accordionTitleActive,
     .accordionTitle.is-expanded {
       background-color: var(--background-2);
+      
+
     }
+
+    .accordionOverviewTi a:active { 
+      color: lime }
+
     .accordionTitleActive:before,
     .accordionTitle.is-expanded:before {
       transform: rotate(-225deg);
+      color: var(--hoverColor);
     }
     
     .accordionItem {
