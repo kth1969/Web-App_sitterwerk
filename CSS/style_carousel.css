@@ -28,7 +28,9 @@ body {
 }
 
 .carousel-indicators{
-  margin-bottom: -1rem;
+  margin-top: 13rem;
+  margin-bottom: 0;
+  /* position: fixed; */
 
 }
 
@@ -77,6 +79,14 @@ body {
 .btn-large {
   padding: 11px 30px;
   font-size: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  filter: invert(1) grayscale(0);
+  opacity: 0;
+  
+
 }
 
 /**
