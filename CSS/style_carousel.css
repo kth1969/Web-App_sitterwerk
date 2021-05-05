@@ -27,14 +27,19 @@ body {
  
 }
 
+.carousel-item{
+  
+  margin-bottom: 0.5rem;
 
 
-.carousel-indicators{
+}
+
+/* .carousel-indicators{
   
   /* margin-bottom: -28rem;
   position: fixed; */
 
-}
+} */
 
 .carousel-caption{padding-bottom:80px;}
 
