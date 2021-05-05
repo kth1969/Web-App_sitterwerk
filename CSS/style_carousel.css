@@ -40,8 +40,13 @@ body {
   margin-top: 1rem; 
 
 }
-.pmarginleft{
+.pbindungstextright{
   margin-left:0.5rem;
+  margin-top:-0.8rem
+}
+.pbindungstextleft{
+  margin-right:0.5rem;
+  margin-top:-0.8rem
 }
 
 /* .carousel-indicators{
