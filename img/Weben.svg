@@ -4,9 +4,9 @@
 	 viewBox="0 0 257.3 422.2" style="enable-background:new 0 0 257.3 422.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#361D32;stroke-width:7.1358;stroke-linecap:round;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#F77441;stroke-width:10.7036;stroke-linecap:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#F77441;stroke-width:7.1358;stroke-linecap:round;stroke-miterlimit:10;}
-	.st3{fill:#F77441;}
+	.st1{fill:none;stroke:#DC3359;stroke-width:10.7036;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#DC3359;stroke-width:7.1358;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#DC3359;}
 </style>
 <g>
 	<line class="st0" x1="13" y1="211.4" x2="171.8" y2="291.2"/>
@@ -18,7 +18,7 @@
 	<line class="st0" x1="31.9" y1="201.7" x2="189.2" y2="280.7"/>
 	<g>
 		<g>
-			<path class="st3" d="M105.5,178.7l16.5-8.1c1.7-0.9,3.9-0.2,4.8,1.5c0.9,1.7,0.2,3.9-1.5,4.8l-12.1,5.9L105.5,178.7z"/>
+			<path class="st3" d="M105.5,178.7l16.5-8.1c1.7-0.9,3.9-0.2,4.8,1.5s0.2,3.9-1.5,4.8l-12.1,5.9L105.5,178.7z"/>
 		</g>
 		<g>
 			<path class="st3" d="M19,231.4c-1.3,0-2.5-0.2-3.1-1.4c-0.9-1.7-0.7-3.9,1-4.8c0,0,6.3-2.9,8-4l7.1,3.6L20.6,231
@@ -87,7 +87,7 @@
 				c-3.9,2.1-11.8,7.4-12.9,7.5L151.8,239.8z"/>
 		</g>
 	</g>
-	<path class="st2" d="M116.1,275.4c2.5-2.9,23.9-12.6,33.1-15.7c9.2-3.1,31.6-14.4,37.6-19.4c5.9-5,23.8-16.2,29.5-16.2"/>
+	<path class="st2" d="M116.1,275.4c2.5-2.9,23.9-12.6,33.1-15.7s31.6-14.4,37.6-19.4c5.9-5,23.8-16.2,29.5-16.2"/>
 	<g>
 		<g>
 			<path class="st3" d="M217.2,235.1l16.6-8.1c1.7-0.9,3.9-0.2,4.8,1.5c0.9,1.7,0.2,3.9-1.5,4.8l-12.1,5.9L217.2,235.1z"/>
