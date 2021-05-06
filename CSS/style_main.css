@@ -12,11 +12,12 @@
   :root
   {
       --mainText:#706D72;
+      --maincolorlight:#a19fa1;
       --secondaryText:#DECACA;
       --lightTextColor:#F7F3F2;
       --buttonColor: linear-gradient(138deg, rgba(191,167,167,1) 0%, rgba(112,109,114,1) 50%);
       --shadow:0 1px 5px rgba(199, 198, 198,0.8);
-      --hoverColor:#EF7D6A;
+      --hoverColor: #F77441;
       --background-1: #F7F3F2;
       --background-2: #ffffffff;
       --background:  rgba(219, 197, 197, 0.3);
@@ -182,7 +183,10 @@
    
   }
 
- 
+  .bulledpoint{
+    color: var(--maincolorlight);
+    
+  }
   
   a:hover{
            
@@ -303,7 +307,7 @@
       margin-top: 1rem; 
       
       padding-bottom: 4rem;
-      border-bottom: 1px solid var(--mainText);
+      border-bottom: 1px solid var(--maincolorlight);
      }
 
      .container-topFront{
@@ -333,7 +337,7 @@
       align-items: start;
       margin-top: 1rem; 
     padding-bottom: 2rem;
-     border-bottom: 1px solid var(--mainText);
+     border-bottom: 1px solid var(--maincolorlight);
      }
 
      
@@ -403,7 +407,7 @@
     
     .accordion dd,
     .accordion__panel {
-      border-bottom: 1px solid var(--mainText);
+      border-bottom: 1px solid var(--maincolorlight);
   
       line-height: 1.5em;
       margin:0;
