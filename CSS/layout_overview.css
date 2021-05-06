@@ -11,11 +11,11 @@
 /* padding-right: 0.6rem;
 padding-left: 0.6rem;
    */
-   background: var(--backgroundcolor-1);
+   background-color:var(--background-2);
 }  
 .container-overwiew{
 margin-top: 3rem;
-padding-bottom: 0.5rem;
+padding-bottom: 0.8rem;
   border-bottom: 1px solid var(--maincolorlight);
 }
 
