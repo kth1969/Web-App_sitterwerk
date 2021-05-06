@@ -75,15 +75,24 @@ font-size: 0.8rem;
       transition: transform 0.3s ease-in-out;
   
     }
+
+    .ovaccordionTitle,
+.ovaccordion__Heading:hover{
+  background-color: red;
+}   
     .ovaccordionTitleActive:before,
     .ovaccordionTitle.is-expanded:before {
       transform: rotate(-225deg);
       color: var(--hoverColor);
     }
-
+    .ovaccordionTitle,
+    .ovaccordion__Heading:hover{
+      background-color:red ;
+    } 
     .overviewTi{
 
       margin: 1rem 0;
+      /* background: var(--background-2); */
     }
 
     .mainBtnsmall{
@@ -112,9 +121,4 @@ font-size: 0.8rem;
   
     }
 
-    .layoutbulledpoints{
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-start;
-
-    }
+  

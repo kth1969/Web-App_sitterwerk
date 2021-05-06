@@ -412,9 +412,10 @@
     .accordion dd,
     .accordion__panel {
       border-bottom: 1px solid var(--maincolorlight);
-  
+      /* background: var(--background-2); */
       line-height: 1.5em;
       margin:0;
+      
       
     }
     
@@ -433,12 +434,14 @@
       border: none;
     
     }
-    
+ 
+.accordionTitle,
+.accordion__Heading:hover{
+  background-color: white;
+}    
+
     .accordionTitle,
     .accordion__Heading {
-     
-  
-     
       padding-bottom:1rem;
       display: block;
       text-decoration: none;
@@ -460,7 +463,7 @@
     .accordionTitle:hover,
     .accordion__Heading:hover,
     .accordionOverviewTi {
-      background-color: var(--background-2);
+      background: var(--background-2);
      
     }
     
