@@ -27,6 +27,9 @@ grid-area:illu;
 padding-top: 7rem;
 justify-self: end;
 }
+.illuovsize{
+padding-top: 20rem;
+}
 .photo{
 grid-area:photo;
 padding-top: 1.5rem;
