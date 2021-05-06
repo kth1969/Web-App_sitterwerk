@@ -102,15 +102,13 @@ font-size: 0.8rem;
    
       border: none;
       margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0 0.4rem;
+     
   
      
     }
-    .btnmargin{
-    
-    margin-bottom: 0.3rem;
-    margin-top: -0.5rem;
-    align-self: end;
-    }
+  
     .btnadjustment{
       display: grid;
     
@@ -120,5 +118,7 @@ font-size: 0.8rem;
       align-self: end;
   
     }
+
+   
 
   
