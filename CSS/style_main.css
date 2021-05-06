@@ -387,10 +387,10 @@
   
     
     /* new accordion */
-    .accordion dl,
+    /* .accordion dl,
     .accordion-list {
       
-    }
+    } */
     .accordion dl:after,
     .accordion-list:after {
       content: "";
@@ -410,10 +410,7 @@
       
     }
     
-    .accordion p {
-    
-    
-    }
+  
     
     .accordion {
       position: relative;
