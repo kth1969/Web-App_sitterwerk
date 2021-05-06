@@ -14,7 +14,7 @@ padding-left: 0.6rem;
 }  
 
 .container-overviewsmall {
-  display: grid;
+display: grid;
 grid-gap: 8px;
 grid-template-columns: 0.5fr 1fr;
 grid-template-rows: 0.3fr 1fr;
@@ -39,7 +39,6 @@ justify-self: start;
 }
 .textForCard{
 grid-area:textForCard;
-align-self: end;
 
 }
 
@@ -77,17 +76,29 @@ font-size: 0.8rem;
 
       background: var(--buttonColor);
       color: var(--lightTextColor);
-     
-      padding:0 0.2rem;
-    
    
-      text-align: center;
       border: none;
+      margin-top: 0.5rem;
+     
+
      
     }
     .btnmargin{
-      margin-left: 9rem;
+    
     margin-bottom: 0.3rem;
     margin-top: -0.5rem;
     align-self: end;
+    }
+    .btnadjustment{
+      display: grid;
+      
+
+
+    }
+    .btnadjustment-2{
+      justify-self: end;
+      align-self: end;
+      
+
+
     }
