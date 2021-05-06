@@ -8,10 +8,16 @@
 
     
 .overviewbody {
-padding-right: 0.6rem;
+/* padding-right: 0.6rem;
 padding-left: 0.6rem;
-  
+   */
+   background: var(--backgroundcolor-1);
 }  
+.container-overwiew{
+margin-top: 3rem;
+padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--maincolorlight);
+}
 
 .container-overviewsmall {
 display: grid;
@@ -68,6 +74,11 @@ font-size: 0.8rem;
       float: right;
       transition: transform 0.3s ease-in-out;
   
+    }
+    .ovaccordionTitleActive:before,
+    .ovaccordionTitle.is-expanded:before {
+      transform: rotate(-225deg);
+      color: var(--hoverColor);
     }
 
     .overviewTi{
