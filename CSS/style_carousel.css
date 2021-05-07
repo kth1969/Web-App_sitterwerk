@@ -49,6 +49,13 @@ body {
   margin-top:-1rem
 }
 
+.formenbauDescription{
+  display: flex;
+ justify-content: start;
+  margin-top: 1rem; 
+
+}
+
 
 .carousel-caption{padding-bottom:80px;}
 
