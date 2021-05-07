@@ -334,11 +334,11 @@
 }
 
      .container-middle{
-     margin-top:2.5rem;
+     
       display: flex;
       flex-flow: column wrap;
       align-items: start;
-      margin-top: 1rem; 
+      margin-top: 2.5rem; 
     padding-bottom: 2rem;
      border-bottom: 1px solid var(--maincolorlight);
      }
