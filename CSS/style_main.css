@@ -334,7 +334,7 @@
 }
 
      .container-middle{
-     
+     margin-top:2.5rem;
       display: flex;
       flex-flow: column wrap;
       align-items: start;
