@@ -306,7 +306,7 @@
       justify-content: flex-start;
       margin-top: 1rem; 
       
-      padding-bottom: 4rem;
+      padding-bottom:6rem;
       border-bottom: 1px solid var(--maincolorlight);
      }
 
@@ -315,6 +315,9 @@
       margin-bottom: 3rem;
       border-bottom: 1px solid var(--mainText);
       
+    }
+    .paddingbottomstart{
+      padding-bottom: 2rem;
     }
 
      .h1margin{
