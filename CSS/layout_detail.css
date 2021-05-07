@@ -105,6 +105,14 @@ overflow: auto;
   height:380px;
 }
 
+.numberText{
+  margin-right: 0.4rem;
+}
+.formenbauDescriptionText{
+margin-top: 0.2rem;
+
+}
+
 .descriptiontextBooks{
 
   color:var(--mainText);
