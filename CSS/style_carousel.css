@@ -154,7 +154,9 @@ body {
 }
 
 
-
+.carousel-indicators{
+  margin-top: 2rem;
+}
   
   
       /* carousel end */
