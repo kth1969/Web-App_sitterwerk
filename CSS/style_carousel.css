@@ -155,7 +155,11 @@ body {
 
 
 .carousel-indicators{
-  margin-top: 2rem;
+  margin-top: 5rem;
+}
+
+.svg-height{
+  max-height: 100%;
 }
   
   
