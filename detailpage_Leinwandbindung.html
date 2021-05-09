@@ -58,7 +58,7 @@
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 0"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
+      <div class="carousel-item active" data-bs-interval="">
         <h3>Bindungsrapport</h3>
         <p class="pbulledpoint pmargin h5margin">Alle gewebten Stoffe haben einen Bindungsrapport. Bei der Leinwandbindung ist der Bindungsrapport schachbrettartig. Vergleiche in der Übersicht mit anderen Bindungen.</p>
         <img src="/img/Bindungsbild.svg" width="162" height="280"class="d-block w-100" alt="Bindungsbild">
@@ -68,7 +68,7 @@
       </div>
         
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="">
         <h3>Weben</h3>
         <h4>Vorbereitung</h4>
         <p class="pbulledpoint pmargin h5margin">Garne von den Spulen werden auf den Kettbaum gewickelt. Die Garnfäden von dem Kettbaum werden danach einzeln in die Litzen des Webstuhl eingefädelt.</p>
@@ -213,7 +213,7 @@
           this.parent( ).carousel( 'prev' );
       },
       swipeRight: function ( ) {
-          this.parent( ).carousel( 'prev' );
+          this.parent( ).carousel( 'next' );
       },
       threshold: 0,
       tap: function(event, target) {
