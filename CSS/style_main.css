@@ -358,7 +358,9 @@
       justify-items: center;
    
     }
-
+.lessmargintop{
+  margin-top: 1rem;
+}
      
 
      .illusize{
