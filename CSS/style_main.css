@@ -328,6 +328,10 @@
    width: 44%;
    height: auto;
     }
+    materialImg-l{
+      width: 44%;
+      height: 44%;
+    }
 
 .materialStyl{
   padding-left: 0.6rem;
