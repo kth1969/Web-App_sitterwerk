@@ -15,11 +15,12 @@
 
     <link rel="icon" type="image/png" href="/img/Logo.png">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900&display=swap" rel="stylesheet">
-
+    <script src="Javascript/java_main.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
 </head>
 <header>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
     </header>
  <section class="section-2">
    <p class="pLogo-3">SITTERWERK </p>
@@ -37,47 +38,7 @@
 <iframe name="Framename" src="https://materialarchiv.ch/de/ma:material_561/" width="345" height="800" frameborder="0" scrolling="auto" class="frame-area">
 </iframe>
 </div>
-  <!--Carousel Bootstrap-->  <div class="container-carousel">
-
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/img/Bindungsbild.svg"
-          width="162" height="280"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/img/Bindungsbild.svg"
-          alt="Second slide"
-        />
-    
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-    
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-</div>
+  <!--Carousel Bootstrap-->
   
  
 
@@ -97,33 +58,6 @@
     </footer>
 </div>
 
- <script>$( document ).ready(function() {
 
-      // Carousel
-  
-      $(".carousel").carousel({
-          interval: false,
-          pause: true
-      });
-  
-      $( ".carousel .carousel-inner" ).swipe( {
-      swipeLeft: function ( event, direction, distance, duration, fingerCount ) {
-          this.parent( ).carousel( 'next' );
-      },
-      swipeRight: function ( ) {
-          this.parent( ).carousel( 'prev' );
-      },
-      threshold: 0,
-      tap: function(event, target) {
-          window.location = $(this).find('.carousel-item.active a').attr('href');
-      },
-      excludedElements:"label, button, input, select, textarea, .noSwipe"
-      } );
-  
-      $('.carousel .carousel-inner').on('dragstart', 'a', function () {
-          return false;
-      });  
-  
-  });</script>
 </body>
 </html>
