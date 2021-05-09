@@ -91,11 +91,11 @@
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  
       <span class="visually-hidden">Next</span>
     </button>
   </div>
@@ -210,10 +210,10 @@
   
       $( ".carousel .carousel-inner" ).swipe( {
       swipeLeft: function ( event, direction, distance, duration, fingerCount ) {
-          this.parent( ).carousel( 'prev' );
+          this.parent( ).carousel( 'next' );
       },
       swipeRight: function ( ) {
-          this.parent( ).carousel( 'next' );
+          this.parent( ).carousel( 'prev' );
       },
       threshold: 0,
       tap: function(event, target) {
