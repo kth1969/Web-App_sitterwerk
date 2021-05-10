@@ -311,9 +311,9 @@
      }
 
      .container-topFront{
-      margin: 1rem 0;
+      margin-top: 1rem;
      
-      padding-bottom:3rem;
+      padding-bottom:4rem;
       border-bottom: 1px solid var(--mainText);
       
     }
@@ -400,6 +400,7 @@
 
       border:none;
       padding-bottom: 0;
+      margin-top: 2rem;
      }
        /* end page styling */
 
