@@ -273,18 +273,17 @@
    }
    .pLogo-2{
     font-size: 17px;
-  
     color:var(--lightTextColor);
     margin: 0;
- 
     padding-left: 1rem;
     z-index: 200;
    }
    .pLogo-3{
     font-size: 12px;
+    line-height: 1;
     color:var(--mainText);
     margin: 0;
-    padding-left: 1.3rem;
+    padding-left: 1rem;
     padding-top: 1rem;
     z-index: 200;
  
@@ -293,8 +292,8 @@
     font-size: 17px;
     color:var(--mainText);
     margin: 0;
-   padding-left: 1.3rem;
-   z-index: 200;
+    padding-left: 1rem;
+    z-index: 200;
    }
 
      /* end header styling */
