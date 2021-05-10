@@ -313,6 +313,7 @@
      .container-topFront{
       margin: 1rem 0;
       margin-bottom: 3rem;
+      padding-bottom:2rem;
       border-bottom: 1px solid var(--mainText);
       
     }

@@ -146,7 +146,11 @@ font-size: 0.92rem;
     }
   }
   .imgfront{
-    width: 100%;
+    /* width: 100%; */
+    width: 70%;
+    z-index: 1;
+    margin-left: 4rem;
+    padding-bottom: 2rem;
     z-index: 1;
   }
   .ontop{
