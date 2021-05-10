@@ -312,8 +312,8 @@
 
      .container-topFront{
       margin: 1rem 0;
-      margin-bottom: 3rem;
-      padding-bottom:2rem;
+     
+      padding-bottom:3rem;
       border-bottom: 1px solid var(--mainText);
       
     }
@@ -394,6 +394,12 @@
    
      
   
+     }
+
+     .noborder{
+
+      border:none;
+      padding-bottom: 0;
      }
        /* end page styling */
 
@@ -479,9 +485,6 @@
       
 
     }
-
-    .accordionOverviewTi a:active { 
-      color: lime }
 
     .accordionTitleActive:before,
     .accordionTitle.is-expanded:before {
