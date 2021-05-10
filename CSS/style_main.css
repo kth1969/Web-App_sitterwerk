@@ -306,14 +306,14 @@
       margin-top: 1rem; 
       
       padding-bottom:6rem;
-      border-bottom: 1px dashed var(--maincolorlight);
+      border-bottom: 1px solid var(--maincolorlight);
      }
 
      .container-topFront{
       margin-top: 1rem;
      
       padding-bottom:4rem;
-      border-bottom: 1px dashed var(--mainText);
+      border-bottom: 1px solid var(--mainText);
       
     }
     .paddingbottomstart{
@@ -344,7 +344,7 @@
       align-items: start;
       margin-top:3rem; 
     padding-bottom: 3rem;
-     border-bottom: 1px dashed var(--maincolorlight);
+     border-bottom: 1px solid var(--maincolorlight);
      }
 
      
@@ -424,7 +424,7 @@
     
     .accordion dd,
     .accordion__panel {
-      border-bottom: 1px dashed var(--maincolorlight);
+      border-bottom: 1px solid var(--maincolorlight);
       /* background: var(--background-2); */
       line-height: 1.5em;
       margin:0;
