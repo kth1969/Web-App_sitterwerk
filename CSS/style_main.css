@@ -454,7 +454,7 @@
 
     .accordionTitle,
     .accordion__Heading {
-      padding-bottom:1rem;
+      padding-bottom:0.75rem;
       display: block;
       text-decoration: none;
       color: var(--mainText);
