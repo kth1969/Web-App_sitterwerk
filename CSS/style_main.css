@@ -33,7 +33,7 @@
     overflow-y: scroll;
     font-family: 'Inter', sans-serif;
     color: rgba(3, 28, 54, 0.8);
-    background-color: var(--secondaryText);
+    background-color: var(--maincolorlight);
   }
   
     body{
