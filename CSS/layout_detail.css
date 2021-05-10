@@ -145,13 +145,18 @@ font-size: 0.92rem;
       backdrop-filter: blur(10px);
     }
   }
+  .container-top-pic{
+    display: flex;
+    justify-content: center;
+
+  }
   .imgfront{
     /* width: 100%; */
     width: 70%;
     z-index: 1;
-    margin-left: 4rem;
     padding-bottom: 2rem;
     z-index: 1;
+    
   }
   .ontop{
   backdrop-filter: blur(5px);
@@ -219,5 +224,12 @@ margin-bottom:7rem;
 
 
 @media screen and (min-width:720px){
+  .imgfront{
+    /* width: 100%; */
+    width: 60%;
+    z-index: 1;
+  padding-bottom: 2rem;
+   
+  }
   
 }
