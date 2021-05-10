@@ -103,6 +103,17 @@
     </footer>
 
 <script src="./javascript/java_main.js"></script>
-
+<script> var svg = document.querySelectorAll('.svgframe svg');
+      var len = svg.length; 
+      for (var i=0; i<len; i++) {
+         if (svg[i].getAttribute('width') == '100%' && parseInt(svg[i].parentNode.clientWidth) > 0) {
+            var viewBox = svg[i].getAttribute('viewBox');
+            viewBox = viewBox.replace(/\s\s+/g, ' ');
+            var w = viewBox.split(' ')[2];
+            var h = viewBox.split(' ')[3];
+            var x = h / w * 100;
+            svg[i].parentNode.setAttribute('style', 'padding-bottom:' + x +'%');
+         }
+      };</script>
 </body>
 </html>

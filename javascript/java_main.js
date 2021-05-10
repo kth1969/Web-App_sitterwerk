@@ -71,5 +71,5 @@ var svg = document.querySelectorAll('.svgframe svg');
             var x = h / w * 100;
             svg[i].parentNode.setAttribute('style', 'padding-bottom:' + x +'%');
          }
-      }
+      };
 
