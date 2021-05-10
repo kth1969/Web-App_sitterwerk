@@ -56,7 +56,7 @@
       <div class="carousel-item active" data-bs-interval="10000">
         <h3>Bindungsrapport</h3>
         <p class="pbulledpoint pmargin h5margin">Alle gewebten Stoffe haben einen Bindungsrapport. Bei der Leinwandbindung ist der Bindungsrapport schachbrettartig. Vergleiche in der Übersicht mit anderen Bindungen.</p>
-        <img src="/img/Bindungsbild.svg" height="292"class="d-block w-100" alt="Bindungsbild">
+        <div class="svgframe"><img src="/img/Bindungsbild.svg" height="292"class="d-block w-100" alt="Bindungsbild"></div> 
         <div class="bindungsText">
         <p class="textSizecard pbindungstextleft">Schussfaden</p>
         <p class="textSizecard pbindungstextright">Kettfaden</p>
@@ -195,20 +195,7 @@
     </footer>
 
     <script src="./javascript/java_main.js"></script>
-    <script> var svg = document.querySelectorAll('.svgframe svg');
-      var len = svg.length; 
-      for (var i=0; i<len; i++) {
-         if (svg[i].getAttribute('width') == '100%' && parseInt(svg[i].parentNode.clientWidth) > 0) {
-            var viewBox = svg[i].getAttribute('viewBox');
-            viewBox = viewBox.replace(/\s\s+/g, ' ');
-            var w = viewBox.split(' ')[2];
-            var h = viewBox.split(' ')[3];
-            var x = h / w * 100;
-            svg[i].parentNode.setAttribute('style', 'padding-bottom:' + x +'%');
-         }
-      }
-     </script>
-
+ 
 
 </body>
 </html>
