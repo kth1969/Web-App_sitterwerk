@@ -343,8 +343,8 @@
       display: flex;
       flex-flow: column wrap;
       align-items: start;
-      margin-top: 2.5rem; 
-    padding-bottom: 2rem;
+      margin-top:3rem; 
+    padding-bottom: 3rem;
      border-bottom: 1px solid var(--maincolorlight);
      }
 

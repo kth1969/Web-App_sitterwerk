@@ -50,10 +50,10 @@ overflow: auto;
 }
 
 .pmargin{
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 .pmarginbottom{
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 .pbulledpoint{
   line-height: 1.2rem;
@@ -102,7 +102,7 @@ overflow: auto;
   margin-top: 0.5rem;
   /* padding-bottom: 2.5rem; */
   border-bottom: 1px solid var(--maincolorlight);
-height:400px;
+height:410px;
 }
 
 .numberText{
