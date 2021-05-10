@@ -15,7 +15,10 @@
       --maincolorlight:#a19fa1;
       --secondaryText:#DECACA;
       --lightTextColor:#F7F3F2;
-      --buttonColor: linear-gradient(138deg, rgba(191,167,167,1) 0%, rgba(112,109,114,1) 50%);
+      --buttonColor:linear-gradient(90deg, rgba(112,109,114,1) 0%, rgba(161,159,161,1) 72%, rgba(162,141,141,1) 100%);
+      --buttonColor1:linear-gradient(90deg, rgba(112,109,114,1) 46%, rgba(153,141,148,1) 100%);
+     
+      --buttonColor2: linear-gradient(138deg, rgba(191,167,167,1) 0%, rgba(112,109,114,1) 50%);
       --shadow:0 1px 5px rgba(199, 198, 198,0.8);
       --hoverColor: #F77441;
       --background-1: #F7F3F2;
@@ -146,7 +149,7 @@
     color:var(--mainText);
     font-size: 0.92rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.1rem;
     
     position: relative;
     overflow: hidden;
