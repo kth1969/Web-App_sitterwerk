@@ -92,7 +92,7 @@ overflow: auto;
 
   margin-top: 0.5rem;
   /* padding-bottom: 2.5rem; */
-  border-bottom: 1px solid var(--maincolorlight);
+  border-bottom: 1px dashed var(--maincolorlight);
   height:575px;
 }
 
@@ -101,7 +101,7 @@ overflow: auto;
 
   margin-top: 0.5rem;
   /* padding-bottom: 2.5rem; */
-  border-bottom: 1px solid var(--maincolorlight);
+  border-bottom: 1px dashed var(--maincolorlight);
 height:410px;
 }
 

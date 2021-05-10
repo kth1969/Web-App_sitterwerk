@@ -16,7 +16,7 @@ padding-left: 0.6rem;
 .container-overwiew{
 margin-top: 3rem;
 padding-bottom: 0.8rem;
-  border-bottom: 1px solid var(--maincolorlight);
+  border-bottom: 1px dashed var(--maincolorlight);
 }
 
 .container-overviewsmall {
