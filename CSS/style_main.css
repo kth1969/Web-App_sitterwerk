@@ -301,6 +301,12 @@
 
      /* end header styling */
   /* start page styling */
+  .container-section{
+    height:20 rem;
+  }
+  .imgmeringue{
+    width:100%;
+  }
 
      .container-top{
       display: flex;
@@ -338,6 +344,9 @@
 
 .materialStyl{
   padding-left: 0.6rem;
+}
+.materialStyl-2{
+  padding-left: 0;
 }
 
      .container-middle{
