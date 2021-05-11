@@ -299,7 +299,7 @@
     margin-left: 1rem;
    margin-top: 1rem;
     z-index: 200;
-    backdrop-filter: blur(5px);
+
  
    }
    .pLogo-4{
@@ -308,7 +308,7 @@
     margin: 0;
     margin-left: 1rem;
     z-index: 200;
-    backdrop-filter: blur(5px);
+  
    }
    .pLogo-5{
     font-size: 12px;
@@ -319,7 +319,7 @@
    margin-top: 1rem;
    padding: 2px;
     z-index: 200;
-    backdrop-filter: blur(5px);
+ 
  
    }
    .pLogo-6{

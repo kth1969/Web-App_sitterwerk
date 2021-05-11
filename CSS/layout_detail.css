@@ -141,8 +141,8 @@ font-size: 0.92rem;
 
    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .blury{
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(3px);
+      backdrop-filter: blur(3px);
     }
   }
   .container-top-pic{
