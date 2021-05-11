@@ -14,7 +14,7 @@
 	.st8{fill:#9F3B2C;stroke:#FFFFFF;stroke-width:0.1418;stroke-miterlimit:10;}
 	.st9{fill:#CCB9B9;stroke:#FFFFFF;stroke-width:0.3732;stroke-miterlimit:10;}
 	.st10{fill:#B79797;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
-	.st11{fill:#AA7F7B;}
+	.st11{fill:#A88686;}
 	.st12{fill:#CCB9B9;stroke:#FFFFFF;stroke-width:0.3306;stroke-miterlimit:10;}
 	.st13{fill:#CCB9B9;}
 	.st14{fill:none;stroke:#D8422E;stroke-width:0.1232;stroke-miterlimit:10;}
@@ -22,7 +22,8 @@
 	.st16{fill:#D8422E;stroke:#FFFFFF;stroke-width:0.1795;stroke-miterlimit:10;}
 	.st17{fill:#9F3B2C;}
 	.st18{fill:#CCB9B9;stroke:#FFFFFF;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:10;}
-	.st19{fill:#916461;}
+	.st19{fill:#AA7F7B;}
+	.st20{fill:#916461;}
 </style>
 <g>
 	<polygon class="st0" points="60.5,171.6 135.9,133.5 79.6,104.8 3.7,143.3 	"/>
@@ -83,6 +84,8 @@
 			c0.2-0.2,1.1,0.4,1.1,0.4L110.2,72.6c0,0.1-0.1,0-0.2-0.2C110.2,72.5,110.3,72.5,110.2,72.6z"/>
 		<path class="st11" d="M86.7,89.1l2.2,1.7l2.5,1.4l1.2-0.2c0,0,1.6-0.2,2.5,0.2c0.9,0.6,1.1,0.8,1.2,1.2c0,0.2,0.2,0.7,0.2,0.7
 			l8,1.1c0.1,0-4-4.9-6.5-6.3c-1.1-0.6-3.9-1.4-5.8-1.6C89.7,87.1,86.7,89.1,86.7,89.1z"/>
+		<path class="st11" d="M85.2,62.6c0,0,1.7,0.2,4.9,0.1c3.2-0.1,2.6-0.2,8.3,1.8s11.5,7.6,11.5,7.6s0.2-0.4-0.5-1.5
+			c-1.7-2.7-6.3-7.8-10.7-9.1c-1.4-0.4-2.2-0.2-3.1-0.4c-3.2-0.7-4-0.5-5-0.4C89.4,61,85.2,62.6,85.2,62.6z"/>
 		<path class="st12" d="M106.1,113.7l-12.3-5.9c0,0-2,2.1-4.5,0.9c-2.4-1.2-1.2-3.6-1.2-3.6l-15.9-7.6v12.4l34,18.2L106.1,113.7z"/>
 		<polygon class="st13" points="24.5,135.6 72.5,111.9 72.4,97.5 25,121 		"/>
 		<path class="st14" d="M77.8,101"/>
@@ -125,37 +128,39 @@
 			c4.1,0,8.5,1.9,8.5,1.9s2.5,2.5,4.9,1.2c1.1-0.6,1.7-1.2,2-1.7c0.4-0.6,0.4-1.1,0.7-1.6c0.5-0.9,1.6-3.5,1.6-3.5l2-4.3h2
 			c0,0-0.1-0.3,0.6,0c0,0,1.4,0,4.2,2.3c2.8,2.3,4.2,4.8,4.2,4.8L87.7,105.2z"/>
 		<g>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -5.862 99.7112)" class="st11" cx="83.4" cy="54.9" rx="2" ry="2.6"/>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -5.862 99.7112)" class="st19" cx="83.4" cy="54.9" rx="1.5" ry="2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -5.8865 99.6777)" class="st19" cx="83.4" cy="54.9" rx="2" ry="2.6"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -5.8865 99.6777)" class="st20" cx="83.4" cy="54.9" rx="1.5" ry="2"/>
 		</g>
 		<g>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -26.3511 109.9174)" class="st11" cx="82" cy="77.8" rx="2" ry="2.6"/>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -26.3511 109.9174)" class="st19" cx="82" cy="77.8" rx="1.5" ry="2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -26.37 109.9359)" class="st19" cx="82" cy="77.8" rx="2" ry="2.6"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -26.37 109.9359)" class="st20" cx="82" cy="77.8" rx="1.5" ry="2"/>
 		</g>
 		<g>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -0.2518 127.5431)" class="st11" cx="110.3" cy="64" rx="2" ry="2.6"/>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -0.2518 127.5431)" class="st19" cx="110.3" cy="64" rx="1.5" ry="2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -0.2855 127.5521)" class="st19" cx="110.3" cy="64" rx="2" ry="2.6"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -0.2855 127.5521)" class="st20" cx="110.3" cy="64" rx="1.5" ry="2"/>
 		</g>
 		<g>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -32.0999 144.6624)" class="st11" cx="109.2" cy="100.1" rx="2" ry="2.6"/>
-			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -32.0999 144.6624)" class="st19" cx="109.2" cy="100.1" rx="1.5" ry="2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -32.1355 144.6293)" class="st19" cx="109.2" cy="100.1" rx="2" ry="2.6"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -32.1355 144.6293)" class="st20" cx="109.2" cy="100.1" rx="1.5" ry="2"/>
 		</g>
 		<g>
-			<ellipse class="st11" cx="36.4" cy="118.6" rx="2.9" ry="1.4"/>
-			<path class="st19" d="M33.5,118.6c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S33.5,118.6,33.5,118.6z"/>
+			<ellipse class="st19" cx="36.4" cy="118.6" rx="2.9" ry="1.4"/>
+			<path class="st20" d="M33.5,118.6c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S33.5,118.6,33.5,118.6z"/>
 		</g>
 		<g>
-			<ellipse class="st11" cx="62.7" cy="104.6" rx="2.9" ry="1.4"/>
-			<path class="st19" d="M59.9,104.6c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S59.9,104.6,59.9,104.6z"/>
+			<ellipse class="st19" cx="62.7" cy="104.6" rx="2.9" ry="1.4"/>
+			<path class="st20" d="M59.9,104.6c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S59.9,104.6,59.9,104.6z"/>
 		</g>
 		<g>
-			<ellipse class="st11" cx="93.4" cy="114" rx="2.9" ry="1.4"/>
-			<path class="st19" d="M90.5,114c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S90.5,114,90.5,114z"/>
+			<ellipse class="st19" cx="93.4" cy="114" rx="2.9" ry="1.4"/>
+			<path class="st20" d="M90.5,114c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S90.5,114,90.5,114z"/>
 		</g>
 		<g>
-			<ellipse class="st11" cx="60.7" cy="134.2" rx="2.9" ry="1.4"/>
-			<path class="st19" d="M57.8,134.2c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S57.8,134.2,57.8,134.2z"/>
+			<ellipse class="st19" cx="60.7" cy="134.2" rx="2.9" ry="1.4"/>
+			<path class="st20" d="M57.8,134.2c0,0,2.7-5.1,5.8,0c0,0-1.4,0.7-3.2,0.7S57.8,134.2,57.8,134.2z"/>
 		</g>
 	</g>
 </g>
+<path class="st11" d="M96.8,61.6l-0.3-3.2L96,56.9c0,0,0-0.4,0.5-0.4s0.7,0.4,0.7,0.4l0.1,1.8c0,0,0.2,0.3,0.2,0.5
+	c-0.1,0.2-0.1,2.3-0.1,2.3L96.8,61.6z"/>
 </svg>
