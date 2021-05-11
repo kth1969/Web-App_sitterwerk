@@ -225,6 +225,7 @@
  
     text-align: center;
     border: none;
+    box-shadow:var(--shadow);
     }
 .xtrapadding{
   padding-left:3rem;
@@ -240,6 +241,7 @@
     padding:0.4rem 0.8rem;
   font-size:1rem ;
     border:1px solid var(--mainText);
+    box-shadow:var(--shadow);
   
   
   }
@@ -250,6 +252,7 @@
     padding:0.3rem 0.7rem;
   
     border:1px solid var(--mainText);
+    box-shadow:var(--shadow);
    
  
   }
