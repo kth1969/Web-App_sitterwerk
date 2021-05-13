@@ -240,7 +240,7 @@
     background-color: var(--background-2);
     color: var(--mainText);
     padding:0.4rem 0.8rem;
-    font-size:1rem ;
+    font-size:1.07rem;
     border:1px solid var(--mainText);
     box-shadow:var(--shadow);
   
@@ -251,7 +251,7 @@
     background-color: var(--background-1);
     color: var(--mainText);
     padding:0.3rem 0.7rem;
-  
+    font-size:1.07rem;
     border:1px solid var(--mainText);
     box-shadow:var(--shadow);
   
@@ -675,13 +675,11 @@
   
   
           .illu-front{
-            grid-area:illu;
+     
             
             align-self:center;
-            padding-bottom: 3rem;
-            max-width: 75%;
-            max-height: 75%;
-            min-width: 150px;
+         
+           min-width: 160px;
             
             }
            
