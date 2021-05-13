@@ -136,6 +136,20 @@ font-size: 0.8rem;
   
      
     }
+    .mainBtnsmall-3{
+
+      background: var(--background-2);
+      color: var(--mainText);
+   
+      border: none;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0 0.4rem;
+      padding-bottom: 0.1rem;
+     
+  
+     
+    }
     .thirdBtn-2{
     
       background-color: var(--background-2);
