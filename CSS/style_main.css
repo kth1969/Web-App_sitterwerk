@@ -345,6 +345,8 @@
     backdrop-filter: blur(5px);
    }
 
+   
+
      /* end header styling */
   /* start page styling */
   .container-section{
@@ -415,6 +417,26 @@
       grid-template-rows: 2fr 0.3fr;
       justify-items: center;
    
+    }
+    .container-center-1{
+      margin-top: 1.5rem;
+      column-gap:0.7rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     justify-items: center;
+   
+    }
+    .icon-btn{
+      background-color: var(--background-2);
+      display: grid;
+      justify-items: center;
+      box-shadow:var(--shadow);
+      padding: 0.7rem;
+      border-radius: 2px;
+      text-align: center;
+      padding-bottom: 1.2rem;
+   
+     
     }
 .lessmargintop{
   margin-top: 1rem;
