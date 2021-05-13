@@ -228,19 +228,14 @@
     border: none;
     box-shadow:var(--shadow);
     }
-.xtrapadding{
-  padding-left:3rem;
-  padding-right:3rem;
 
-
-}
 
   .secondBtn{
     margin-top: 1.5rem;
     background-color: var(--background-2);
     color: var(--mainText);
     padding:0.4rem 0.8rem;
-    font-size:1.07rem;
+    font-size:1.0rem;
     border:1px solid var(--mainText);
     box-shadow:var(--shadow);
   
@@ -251,7 +246,7 @@
     background-color: var(--background-1);
     color: var(--mainText);
     padding:0.3rem 0.7rem;
-    font-size:1.07rem;
+    font-size:1.0rem;
     border:1px solid var(--mainText);
     box-shadow:var(--shadow);
   
@@ -269,7 +264,12 @@
    
  
   }
+  .xtrapadding{
+    padding-left:3rem;
+    padding-right:3rem;
   
+  
+  }
    /* end main styling */
   /* header styling */
    .section-1{
