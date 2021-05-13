@@ -353,6 +353,11 @@
   .container-section{
     height:20 rem;
   }
+
+  .illu-front{
+
+  min-width: 140px;
+}
   .imgmeringue{
     width:100%;
   }
