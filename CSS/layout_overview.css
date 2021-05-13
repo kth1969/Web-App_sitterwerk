@@ -35,19 +35,10 @@ align-self:end;
 padding-bottom: 3rem;
 max-width: 100%;
 max-height: 100%;
-min-width: 150px;
+min-width: 140px;
 
 }
-.illu-r{
-  grid-area:illu;
-  
-  align-self:end;
-  padding-bottom: 3rem;
-  max-width: 100%;
-  max-height: 100%;
-  min-width: 150px;
-  
-}
+
 .illuovsize{
   margin-top: 20rem;
 }
@@ -178,6 +169,21 @@ font-size: 0.8rem;
       align-self: end;
   
     }
+    @media screen and (min-width:414px){
+  
+  
+      .illu-front{
+ 
+        
+        grid-area:illu;
+      
+        align-self:center;
+        padding-bottom: 3rem;
+        min-width: 150px;
+        
+        }
+       
+      }
     @media screen and (min-width:720px){
   
   
@@ -186,13 +192,12 @@ font-size: 0.8rem;
       
       align-self:center;
       padding-bottom: 3rem;
-      max-width: 75%;
-      max-height: 75%;
-      min-width: 150px;
+      min-width: 160px;
       
       }
      
     }
+
    
 
   
