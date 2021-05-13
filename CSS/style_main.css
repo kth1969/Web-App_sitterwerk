@@ -671,6 +671,18 @@
 
 
 
-@media screen and (min-width:720px){
+        @media screen and (min-width:414px){
   
-}
+  
+          .illu-front{
+            grid-area:illu;
+            
+            align-self:center;
+            padding-bottom: 3rem;
+            max-width: 75%;
+            max-height: 75%;
+            min-width: 150px;
+            
+            }
+           
+          }
