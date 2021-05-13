@@ -94,7 +94,7 @@ font-size: 0.8rem;
     .ovaccordionTitleActive:before,
     .ovaccordionTitle.is-expanded:before {
       transform: rotate(-225deg);
-      color: var(--hoverColor);
+      color: var(--maincolorlight);
     }
     .ovaccordionTitle,
     .ovaccordion__Heading:hover{
@@ -115,9 +115,40 @@ font-size: 0.8rem;
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
       padding: 0 0.4rem;
+      padding-bottom: 0.1rem;
      
   
      
+    }
+    .mainBtnsmall-1{
+
+      background: var(--buttonColor);
+      color: var(--lightTextColor);
+   
+      border: none;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0.3rem 0.7rem;
+      padding-bottom: 0.4rem;
+     
+  
+     
+    }
+    .thirdBtn-2{
+    
+      background-color: var(--background-2);
+      color: var(--mainText);
+     
+    
+      border:1px solid var(--mainText);
+      box-shadow:var(--shadow);
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0 0.4rem;
+      padding-bottom: 0.1rem;
+     
+     
+   
     }
   
     .btnadjustment{
