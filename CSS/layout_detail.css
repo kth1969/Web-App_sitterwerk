@@ -183,7 +183,7 @@ margin-bottom:7rem;
 
 /* QR Code Styling */
 #container {
-  text-align: center;
+  
   margin: 0;
 }
 
@@ -198,10 +198,12 @@ margin-bottom:7rem;
 }
 
 #btn-scan-qr img {
-  height: 5em;
+  height: 7rem;
   padding: 15px;
   margin: 15px;
   background: white;
+  box-shadow: var(--shadow);
+  
 }
 
 #qr-result {
