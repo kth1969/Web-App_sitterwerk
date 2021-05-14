@@ -185,6 +185,7 @@ margin-bottom:7rem;
 #container {
   
   margin: 0;
+
 }
 
 #qr-canvas {
@@ -198,9 +199,9 @@ margin-bottom:7rem;
 }
 
 #btn-scan-qr img {
-  height: 7rem;
-  padding: 15px;
-  margin: 15px;
+  height: 12rem;
+  padding: 1rem;
+  margin: 1rem;
   background: white;
   box-shadow: var(--shadow);
   
