@@ -378,7 +378,7 @@
       flex-flow: row wrap;
       justify-content: flex-start;
       margin-top: 1rem; 
-      
+      margin-bottom: 1rem; 
       padding-bottom:6rem;
       border-bottom: 1px solid var(--maincolorlight);
      }
