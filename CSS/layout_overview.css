@@ -180,11 +180,24 @@ font-size: 0.8rem;
       
         align-self:center;
         padding-bottom: 3rem;
-        min-width: 151px;
+        min-width: 140px;
         
         }
        
       }
+      @media screen and (min-width:413px){
+  
+  
+        .illu{
+          grid-area:illu;
+          
+          align-self:end;
+          padding-bottom: 3rem;
+          min-width: 150px;
+          
+          }
+         
+        }
     @media screen and (min-width:720px){
   
   
