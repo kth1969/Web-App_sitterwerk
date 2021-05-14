@@ -73,3 +73,7 @@ var svg = document.querySelectorAll('.svgframe svg');
          }
       };
 
+//go back button
+function goBack() {
+	window.history.back();
+ };
