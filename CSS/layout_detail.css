@@ -219,6 +219,26 @@ margin-bottom:7rem;
 margin-top: 3rem;
 padding-bottom: 7rem;
 
+
+}
+.middleqr{
+  margin-top: 2rem;
+display: flex;
+justify-content:center;
+
+}
+.xtrap{
+  padding-top: 0.7rem;
+}
+.thirdBtnqr{
+    
+  background-color: var(--background-1);
+  color: var(--mainText);
+  padding:0.8rem 0.7rem;
+  font-size:1.0rem;
+  border:1px solid var(--mainText);
+  box-shadow:var(--shadow);
+
 }
 /* QR Code Styling */
     
