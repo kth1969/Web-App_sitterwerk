@@ -178,6 +178,10 @@ font-size: 0.92rem;
 margin-bottom:7rem;
 }
 
+.btncross{
+  border: none;
+  background:transparent;
+}
 /* carousel end */
 
 
@@ -240,6 +244,7 @@ justify-content:center;
   box-shadow:var(--shadow);
 
 }
+
 /* QR Code Styling */
     
     
