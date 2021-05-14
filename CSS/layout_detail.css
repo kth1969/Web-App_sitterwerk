@@ -180,7 +180,8 @@ margin-bottom:7rem;
 
 .btncross{
   border: none;
-  background:transparent;
+  background:none;
+  padding: 0;
 }
 /* carousel end */
 
