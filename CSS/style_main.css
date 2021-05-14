@@ -102,6 +102,7 @@
     line-height: 20px;
     font-weight: 600;
     color:var(--mainText);
+    text-shadow: var(--shadow);
    
     display: block;
     margin: 0;
@@ -118,6 +119,7 @@
     margin: 0;
     cursor: pointer;
     margin-top: 0.5rem;
+    text-shadow: var(--shadow-1);
   }
   h5 {
     font-size: 20px;
@@ -128,6 +130,7 @@
     display: block;
     margin: 0;
     cursor: pointer;
+    text-shadow: var(--shadow);
    
   }
   h6 {
