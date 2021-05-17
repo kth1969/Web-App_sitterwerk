@@ -158,6 +158,21 @@ font-size: 0.92rem;
     z-index: 1;
     
   }
+  .imgfront-2{
+    /* width: 100%; */
+    width: 70%;
+    z-index: 1;
+    padding-top: 2rem;
+  
+    z-index: 1;
+
+    
+  }
+  .container-img{
+    display: flex;
+    justify-content: center;
+  }
+
   .ontop{
   backdrop-filter: blur(5px);
     position: fixed;
