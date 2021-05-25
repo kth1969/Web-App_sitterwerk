@@ -182,7 +182,10 @@ font-size: 0.92rem;
    z-index: 1;
   }
 
-  
+  .gifalign{
+    vertical-align: middle;
+
+  }
   
 /* main Styling */
 
