@@ -596,7 +596,7 @@
     .accordionTitleActive:before,
     .accordionTitle.is-expanded:before {
       transform: rotate(-225deg);
-      color: var(--hoverColor);
+      color: var(--maincolorlight);
     }
     
     .accordionItem {
