@@ -605,6 +605,11 @@
       max-height: 100em;
       transition: max-height 1s;
     }
+
+    .icon-btn:hover{
+      transform: scale(0.1);
+
+    }
     @media screen and (min-width: 48em) {
       .accordionItem {
         max-height: 150em;
