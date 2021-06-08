@@ -202,7 +202,7 @@
   a:hover{
            
       text-decoration: none;
-      color:var(--hoverColor);
+      color:var(--mainText);
       text-shadow: none;
       transition: 2s;
      
