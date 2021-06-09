@@ -170,6 +170,9 @@ font-size: 0.8rem;
       align-self: end;
   
     }
+    .marginbottom{
+     margin-bottom:  3rem;
+    }
     @media screen and (min-width:413px){
   
   
