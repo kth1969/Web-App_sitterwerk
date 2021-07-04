@@ -48,14 +48,15 @@
        background: var(--background-1);
       line-height: 1.5;
       min-height: 0;
-      /* font-family: NeueMontreal-Regular; */
+  
       font-family: 'Inter', sans-serif;
-      /* display: inline-block; */
+  
       position: relative;
       left: 50%;
       transform: translate(-50%, 0);
-      /* max-width: 768px; */
+     
       max-width: 420px;
+       /* max-width: 768px; */
   
        
       }
